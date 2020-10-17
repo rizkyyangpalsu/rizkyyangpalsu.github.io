@@ -10,7 +10,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body, html {
+           overflow: hidden;
+        }
+
+        /*TODO: You can change the color here*/
+        .custom-background {
+            background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+        }
+
+        h1.title:after {
+            content: ' ';
+            display: block;
+            margin: 20px auto;
+            width: 50px;
+            border: 2px solid white;
+        }
+    </style>
 </head>
 <body>
 <section class="hero has-text-white is-fullwidth is-fullheight custom-background">
